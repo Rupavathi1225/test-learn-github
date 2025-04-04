@@ -1,0 +1,15 @@
+to clone a repository click on code ssh then copy the url and paste it in the command prompt
+$ git clone <ssh url>
+
+Before starting actual development always create a feature branch from the main
+checkout to main branch
+$ git checkout origin/main
+
+pull latest changes from the main
+$ git pull origin main
+
+now create a feature branch from the main branch
+$ git checkout -b rupa-feat.learn_git (nothing but branch name)
+
+to check what is your current branch
+$ git branch
