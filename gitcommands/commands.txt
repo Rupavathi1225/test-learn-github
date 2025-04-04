@@ -13,3 +13,22 @@ $ git checkout -b rupa-feat.learn_git (nothing but branch name)
 
 to check what is your current branch
 $ git branch
+
+Do your work and create/modify the files
+then to check the what chnages you made
+$ git status
+it will show you what changes you made in red colour
+
+$ git add <file name?> # make sure to replace the filename and brackets with the desired file
+
+to commit your changes to the branch
+$ git commit -m "message for my commit" # write some meaningful message
+
+now push your changes to your feature branch
+
+$ git push origin <feature-branch> # make sure to replace feature-branch with the branch name whic you have created earlier in the line number 12
+
+Boom thats it you will get a link in tyhe command prompt copy and paste it in the browser and create a pull request
+Note: Here make sure you are creating pull request to the correct branch in our local we are directly creating to main
+      but in companies we need to go to dev >> qa >> uat >> prod
+
